@@ -1,0 +1,7 @@
+div .backgroundColumn {
+    background: red linear-gradient(
+            to bottom,
+            black 50%,
+            gray 50%
+    );
+}
