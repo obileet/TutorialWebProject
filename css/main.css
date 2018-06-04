@@ -1,7 +1,162 @@
-div .backgroundColumn {
-    background: red linear-gradient(
+div.topHalfBlackColumn {
+    background: linear-gradient(
             to bottom,
             black 50%,
-            gray 50%
+            #282828 50%
     );
+}
+
+div.grayBackground {
+    background-color: #282828;
+}
+
+.headerLogo img {
+    z-index: 1000000000000000000000000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 30%;
+}
+
+html, body {
+    height: 100% !important;
+}
+
+div.fullHeader {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+div.menuBackground {
+    background-color: #1e1e1e;
+}
+
+div.menuItem {
+    text-align: center;
+    color: white;
+}
+
+div.menuRow {
+    position: absolute;
+    top: 35%;
+    margin: auto;
+    width: 98%;
+}
+
+div.menuItem a {
+    font-size: 20px;
+    text-align: center;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+div.menuItem a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: orange;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+div.menuItem a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+div.centerText {
+    text-align: center;
+}
+
+h4 {
+    color: white !important;
+}
+
+h5 {
+    color: white !important;
+}
+
+a.scroll_down {
+    z-index: 1000000000000000000000000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white !important;
+    bottom: 10%;
+    height: 50px;
+    width: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+a.scroll_down:before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    -webkit-animation: scroll_down_btn-animation 3s infinite;
+    animation: scroll_down_btn-animation 3s infinite;
+    box-sizing: border-box;
+}
+
+#scrollDownBtn p {
+    width: 120px;
+    position: absolute;
+    top: 110%;
+    left: -135%;
+}
+
+
+
+@keyframes scroll_down_btn-animation {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        -webkit-transform: translate(0, 20px);
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes scroll_down_btn-animation {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        -webkit-transform: translate(0, 20px);
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
