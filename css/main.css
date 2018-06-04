@@ -54,7 +54,7 @@ div.menuItem a {
 
 div.menuItem a:after {
     background: none repeat scroll 0 0 transparent;
-    bottom: 0;
+    bottom: -10px;
     content: "";
     display: block;
     height: 2px;
