@@ -1,7 +1,7 @@
 div.topHalfBlackColumn {
     background: linear-gradient(
             to bottom,
-            black 50%,
+            #171717 50%,
             #282828 50%
     );
 }
@@ -24,7 +24,7 @@ html, body {
 }
 
 div.fullHeader {
-    background-color: black;
+    background-color: #171717;
     height: 100vh;
     width: 100%;
 }
@@ -82,7 +82,15 @@ h5 {
     color: white !important;
 }
 
+h6 {
+    color: white !important;
+}
+
 h5.grayh5 {
+    color: gray !important;
+}
+
+h6.grayh6 {
     color: gray !important;
 }
 
@@ -123,6 +131,10 @@ a.scroll_down:before {
     position: absolute;
     top: 110%;
     left: -135%;
+}
+
+div.imageRow {
+    padding-top: 40px;
 }
 
 
