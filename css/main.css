@@ -60,7 +60,8 @@ div.menuItem a:after {
     height: 2px;
     left: 50%;
     position: absolute;
-    background: orange;
+    background: #fff;
+    margin-top: 10px;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
