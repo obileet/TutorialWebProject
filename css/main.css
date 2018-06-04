@@ -82,6 +82,10 @@ h5 {
     color: white !important;
 }
 
+h5.grayh5 {
+    color: gray !important;
+}
+
 a.scroll_down {
     z-index: 1000000000000000000000000;
     position: absolute;
