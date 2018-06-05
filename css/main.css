@@ -150,7 +150,7 @@ a.scroll_down:before {
 }
 
 div.imageRow {
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 @keyframes scroll_down_btn-animation {
