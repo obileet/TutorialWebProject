@@ -6,6 +6,22 @@ div.topHalfBlackColumn {
     );
 }
 
+div.TopHalfRedBlackColumn {
+    background: linear-gradient(
+            to bottom,
+            red 50%,
+            #171717 50%
+    );
+}
+
+div.bottomHalfRedBlackColumn {
+    background: linear-gradient(
+            to bottom,
+            #282828 50%,
+            red 50%
+    );
+}
+
 div.grayBackground {
     background-color: #282828;
 }
@@ -173,4 +189,46 @@ div.imageRow {
     100% {
         opacity: 0;
     }
+}
+
+div.hollowBox {
+    margin-top: 20px !important;
+    width: 250px;
+    height: 45px;
+    border: 2px solid white;
+    margin: auto;
+}
+
+a.hollowLink2 {
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 40px !important;
+    color: white;
+    text-decoration: none !important;
+    position: relative;
+    top: 16%;
+}
+
+a.hollowLink {
+    border: 2px solid white;
+    border-radius: 0px;
+    color: white;
+    text-decoration: none !important;
+    font-size: 16px;
+    width: 250px;
+    height: 45px;
+    display: block;
+    margin: auto;
+    margin-top: 20px !important;
+}
+
+a.hollowLink p {
+    position: relative;
+    top: 15%;
+}
+
+a.hollowLink:hover {
+    color: gray;
+    border: 2px solid gray;
 }
