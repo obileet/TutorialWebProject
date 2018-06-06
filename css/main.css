@@ -279,7 +279,7 @@ div.gradBackground {
 }
 
 .slick-slide img {
-
+width: 100;
 }
 
 .slick-dots li.slick-active button:before {

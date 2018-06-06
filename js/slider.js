@@ -9,16 +9,29 @@ $('.slider').slick({
     slidesToScroll: 1,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 824,
             settings: {
                 arrows: false,
-                slidesToShow: 1
+                slidesToShow: 1,
+                slidesToScroll: 1
             }
         },
         {
             breakpoint: 600,
             settings: {
-                dots: false
+                arrows: false,
+                dots: false,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 400,
+            settings: {
+                arrows: false,
+                dots: false,
+                slidesToShow: 1,
+                slidesToScroll: 1
             }
         }
     ]
