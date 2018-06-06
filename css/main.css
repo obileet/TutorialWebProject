@@ -233,24 +233,6 @@ a.hollowLink:hover {
     border: 2px solid gray;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 div.gradBackground {
     color: #fff;
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
@@ -259,11 +241,6 @@ div.gradBackground {
     -moz-animation: Gradient 15s ease infinite;
     animation: Gradient 15s ease infinite;
 }
-
-
-
-
-
 
 @-webkit-keyframes Gradient {
     0% {
@@ -300,6 +277,20 @@ div.gradBackground {
         background-position: 0% 50%
     }
 }
+
+.slick-slide img {
+
+}
+
+.slick-dots li.slick-active button:before {
+    color: white !important;
+}
+
+.slick-dots li button:hover:before {
+    color: white !important;
+}
+
+
 
 
 
