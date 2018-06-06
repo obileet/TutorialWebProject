@@ -206,14 +206,14 @@ a.hollowLink:hover {
 div.gradBackground {
     color: #fff;
     background: linear-gradient(to bottom right,
-    #2C3E50, #FD746C,
+    #516fe7, #FD746C,
     #FF8235, #ffff1c,
     #92FE9D, #00C9FF,
     #a044ff, #e73827);
-    background-size: 400% 400%;
-    -webkit-animation: Gradient 15s ease infinite;
-    -moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
+    background-size: 1000% 1000%;
+    -webkit-animation: Gradient 100s ease infinite;
+    -moz-animation: Gradient 100s ease infinite;
+    animation: Gradient 100s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
