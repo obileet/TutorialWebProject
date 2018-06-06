@@ -337,3 +337,15 @@ div.menuRow {
     width: 98%;
 }
 
+div.menuRowSmall {
+    position: absolute;
+    top: 20%;
+    margin: auto;
+    width: 98%;
+}
+
+div.noPaddingOverflowX {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    overflow-x: hidden !important;
+}
