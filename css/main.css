@@ -45,6 +45,10 @@ div.fullHeader {
     width: 100%;
 }
 
+.blackBlackground {
+    background-color: #171717;
+}
+
 div.menuBackground {
     background-color: #1e1e1e;
 }
@@ -90,24 +94,21 @@ div.centerText {
     text-align: center;
 }
 
-h4 {
-    color: white !important;
+div.centerLeftText {
+    margin: auto;
+    text-align: left !important;
 }
 
-h5 {
-    color: white !important;
-}
-
-h6 {
-    color: white !important;
-}
-
-h5.grayh5 {
+.grayText {
     color: gray !important;
 }
 
-h6.grayh6 {
-    color: gray !important;
+.whiteText {
+    color: white !important;
+}
+
+.leistungTextPadding {
+    padding-left: 20px;
 }
 
 a.scroll_down {
@@ -289,14 +290,3 @@ div.gradBackground {
 .slick-dots li button:hover:before {
     color: white !important;
 }
-
-
-
-
-
-
-
-
-
-
-
