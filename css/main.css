@@ -279,8 +279,22 @@ div.gradBackground {
     }
 }
 
-.slick-slide img {
+div.responsive-slick {
+    width: 200% !important;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    overflow-x: visible !important;
+    position: relative;
+    left: -50% !important;
+}
 
+/* the slides */
+.slick-slide {
+    margin: 0 15px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -15px;
 }
 
 .slick-dots li.slick-active button:before {

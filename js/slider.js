@@ -5,7 +5,7 @@ $('.slider').slick({
     autoplaySpeed: 3000,
     infinite: true,
     speed: 1000,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
         {
