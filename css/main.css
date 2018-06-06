@@ -36,13 +36,8 @@ div.grayBackground {
 }
 
 body {
-    overflow-x: hidden !important;
     height: 100% !important;
     font-family: 'Open Sans', Fallback, sans-serif !important;
-}
-
-html {
-    overflow-x: visible !important;
 }
 
 div.fullHeader {
