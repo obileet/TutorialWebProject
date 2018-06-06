@@ -35,7 +35,7 @@ div.grayBackground {
     top: 35%;
 }
 
-body {
+html, body {
     height: 100% !important;
     font-family: 'Open Sans', Fallback, sans-serif !important;
 }
@@ -252,6 +252,7 @@ div.responsive-slick-large {
     padding-top: 60px;
     padding-bottom: 60px;
     overflow-x: hidden !important;
+    overflow-x: -moz-hidde-unscrollable !important;
     position: relative;
     left: -50% !important;
 }
@@ -295,7 +296,6 @@ div.responsive-slick-large {
 .buttomPadding {
     padding-bottom: 60px;
 }
-
 
 ul.menuList {
     margin: auto;
