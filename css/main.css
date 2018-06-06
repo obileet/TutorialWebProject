@@ -53,43 +53,6 @@ div.menuBackground {
     background-color: #1e1e1e;
 }
 
-div.menuItem {
-    text-align: center;
-    color: white;
-}
-
-div.menuRow {
-    position: absolute;
-    top: 35%;
-    margin: auto;
-    width: 98%;
-}
-
-div.menuItem a {
-    font-size: 20px;
-    text-align: center;
-    color: white !important;
-    text-decoration: none !important;
-}
-
-div.menuItem a:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: -5px;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-
-div.menuItem a:hover:after {
-    width: 100%;
-    left: 0;
-}
-
 div.centerText {
     text-align: center;
 }
@@ -327,3 +290,50 @@ div.responsive-slick-large {
 .buttomPadding {
     padding-bottom: 60px;
 }
+
+
+ul.menuList {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    display: table;
+    text-align: center;
+}
+li.menuItem {
+    display: table-cell;
+    position: relative;
+    padding: 0;
+}
+a.menuLink {
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 5px 20px;
+    position: relative;
+    text-align: center;
+    color: white !important;
+    text-decoration: none !important;
+}
+a.menuLink:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: white !important;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+a.menuLink:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+div.menuRow {
+    position: absolute;
+    top: 35%;
+    margin: auto;
+    width: 98%;
+}
+
