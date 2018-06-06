@@ -247,7 +247,7 @@ div.responsive-slick-large {
     width: 200% !important;
     padding-top: 60px;
     padding-bottom: 60px;
-    overflow-x: visible !important;
+    overflow-x: hidden !important;
     position: relative;
     left: -50% !important;
 }
