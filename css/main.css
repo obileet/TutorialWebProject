@@ -282,21 +282,17 @@ div.gradBackground {
 div.responsive-slick-large {
     width: 200% !important;
     padding-top: 60px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
     overflow-x: visible !important;
     position: relative;
     left: -50% !important;
-}
-
-div.responsive-slick-large {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
 }
 
 /* the slides */
 .slick-slide {
     margin: 0 15px;
 }
+
 /* the parent */
 .slick-list {
     margin: 0 -15px;
@@ -306,6 +302,7 @@ div.responsive-slick-large {
 .smallSlider.slick-slide {
     margin: 0 0px;
 }
+
 /* the parent */
 .smallSlider.slick-list {
     margin: 0 0px;
@@ -317,4 +314,16 @@ div.responsive-slick-large {
 
 .slick-dots li button:hover:before {
     color: white !important;
+}
+
+.topPadding {
+    padding-top: 60px;
+}
+
+.topContentPadding {
+    padding-top: 40px
+}
+
+.buttomPadding {
+    padding-bottom: 60px;
 }
