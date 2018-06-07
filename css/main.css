@@ -259,7 +259,8 @@ div.responsive-slick-large {
 }
 
 /* the slides */
-.slick-slide {
+.slick-slide, .slick-slide *{
+    outline: none !important;
     margin: 0 15px;
 }
 
