@@ -88,7 +88,7 @@ div.centerLeftText {
     margin: auto;
     top: 5%;
     background-color: transparent;
-    cursor: auto;
+    cursor: default;
     outline: none;
 }
 
@@ -410,7 +410,7 @@ button.back-to-top {
     position: absolute;
     height: 100%;
     width: 100%;
-    z-index: 1000000000000000000000000;
+    z-index: 10000000000;
     top: 0;
     left: 0;
 }
