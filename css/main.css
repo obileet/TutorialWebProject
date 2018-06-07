@@ -391,9 +391,14 @@ button.back-to-top {
     display: none;
     position: fixed;
     z-index: 10000000000000000000;
-    font-size: 25px;
-    border-radius: 50px;
+    border-radius: 2px;
     border-width: 0px;
+    right: 15px;
+    bottom: 15px;
+    height: 45px;
+    width: 45px;
+    color: #fff;
+    background-color: #282828;
     right: 25px;
     bottom: 50px;
     height: 50px;
