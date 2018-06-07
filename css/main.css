@@ -42,8 +42,9 @@ html, body {
 
 div.fullHeader {
     background-color: #171717;
-    height: 105vh;
+    height: 100vh;
     width: 100%;
+    position: relative;
 }
 
 .blackBlackground {
@@ -82,7 +83,7 @@ a.scroll_down {
     right: 0;
     margin: auto;
     color: white !important;
-    bottom: 5%;
+    bottom: 8%;
     height: 50px;
     width: 30px;
     background-color: transparent;
