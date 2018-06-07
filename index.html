@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:h="http://www.w3.org/1999/html" style="overflow-x: hidden !important;">
+<html lang="en" xmlns:h="http://www.w3.org/1999/html" style="overflow-x: hidden;">
 <head>
     <title>InGlory - Handcrafted Graphics made in Germany</title>
     <meta charset="utf-8">
@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link rel="stylesheet" type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/smoothScrolling.js"/>
@@ -21,7 +23,7 @@
 
 </head>
 
-<body style="overflow-x: hidden !important; overflow-x: -moz-hidde-unscrollable !important; background-color: #171717;">
+<body style="background-color: #171717;">
 
 <!-- Header Logo - Start Page -->
 <div class="fullHeader">
@@ -35,6 +37,8 @@
         </a>
     </div>
 </div>
+
+<button id="scrollBtn" class="back-to-top" type="button" onclick="scrollBtnScrolling('#menuRow');"><i class="fa fa-chevron-up"></i></button>
 
 <!-- Menu Panel -->
 <div id="menuRow" class="container-fluid noPaddingOverflowX">
@@ -86,7 +90,7 @@
 </div>
 
 <!-- Vision & Leistungen Panel -->
-<div class="container-fluid">
+<div class="container-fluid" style="overflow-x: hidden !important;">
     <div id="visionRow" class="row grayBackground">
         <div class="col-xl-12" style="padding-left: 0px; padding-right: 0px">
             <div class="row">
@@ -182,7 +186,7 @@
         <h9 class="grayText">UNSERE LEISTUNGEN</h9>
     </div>
 
-    <div class="row pb-5 topContentPadding" style="margin: auto; width: 80%;">
+    <div class="row pb-5 topContentPadding" style="margin: auto; width: 90%;">
         <div class="col-sm-12 col-md-6 col-xl-4">
             <ul class="list-unstyled">
                 <li>
@@ -305,7 +309,6 @@
         </div>
     </div>
 </div>
-
 
 </body>
 </html>
