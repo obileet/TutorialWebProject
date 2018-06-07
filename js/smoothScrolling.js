@@ -52,5 +52,5 @@ document.addEventListener("scroll", function () {
         $("#scrollBtn").css("display", "block");
     }
 
-    $(".scroll-down-section").css("opacity", 1 - $(window).scrollTop() / 250);
+    $("#scrollDownBtn").css("opacity", 1 - $(window).scrollTop() / 250);
 });
