@@ -38,6 +38,7 @@ div.grayBackground {
 html, body {
     height: 100% !important;
     font-family: 'Open Sans', Fallback, sans-serif !important;
+    background-color: #171717;
 }
 
 input:focus {
