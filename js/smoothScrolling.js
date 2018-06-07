@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    $("#loader-page").css("display","none");
     // Select all links with hashes
     $('a[href*="#"]')
     // Remove links that don't actually link to anything
@@ -55,8 +54,3 @@ document.addEventListener("scroll", function () {
 
     $(".scroll-down-section").css("opacity", 1 - $(window).scrollTop() / 250);
 });
-
-$(window).load(function () {
-    $("#loader-page").fadeOut("slow");
-})
-
