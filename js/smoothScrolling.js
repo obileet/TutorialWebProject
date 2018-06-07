@@ -11,7 +11,7 @@ $(document).ready(function () {
                 &&
                 location.hostname == this.hostname
             ) {
-               scrollBtnScrolling(this.hash);
+                scrollBtnScrolling(this.hash);
             }
         });
 });
@@ -42,14 +42,16 @@ function scrollBtnScrolling(hash) {
     }
 }
 
-document.addEventListener("scroll", function(){
+document.addEventListener("scroll", function () {
     var xPosVision = $("#visionRow").position().top;
     var currentXPos = $(window).scrollTop();
 
-    if(xPosVision > currentXPos) {
-        $("#scrollBtn").css("display","none");
+    if (xPosVision > currentXPos) {
+        $("#scrollBtn").css("display", "none");
     } else {
-        $("#scrollBtn").css("display","block");
+        $("#scrollBtn").css("display", "block");
     }
+
+    $(".scroll-down-section").css("opacity", 1 - $(window).scrollTop() / 250);
 });
 
