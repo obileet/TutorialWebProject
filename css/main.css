@@ -80,6 +80,18 @@ div.centerLeftText {
     padding-left: 20px;
 }
 
+.headerText {
+    z-index: 100000000000000000000000000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 5%;
+    background-color: transparent;
+    cursor: auto;
+    outline: none;
+}
+
 a.scroll_down {
     z-index: 100000000000000000000000000;
     position: absolute;
@@ -159,25 +171,6 @@ div.imageRow {
     100% {
         opacity: 0;
     }
-}
-
-div.hollowBox {
-    margin-top: 20px !important;
-    width: 250px;
-    height: 45px;
-    border: 2px solid white;
-    margin: auto;
-}
-
-a.hollowLink2 {
-    border: 2px solid white;
-    border-radius: 20px;
-    font-size: 16px;
-    width: 40px !important;
-    color: white;
-    text-decoration: none !important;
-    position: relative;
-    top: 16%;
 }
 
 a.hollowLink {
@@ -420,4 +413,10 @@ button.back-to-top {
     z-index: 1000000000000000000000000;
     top: 0;
     left: 0;
+}
+
+
+link2 {
+    background-color: red;
+    z-index: 1;
 }
