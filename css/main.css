@@ -41,7 +41,7 @@ html, body {
 }
 
 input:focus {
-    outline:none;
+    outline:none !important;
 }
 
 div.fullHeader {
