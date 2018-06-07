@@ -40,6 +40,10 @@ html, body {
     font-family: 'Open Sans', Fallback, sans-serif !important;
 }
 
+input:focus {
+    outline:none !important;
+}
+
 div.fullHeader {
     background-color: #171717;
     height: 100vh;
@@ -201,15 +205,11 @@ a.hollowLink:hover {
 
 div.gradBackground {
     color: #fff;
-    background: linear-gradient(to bottom right,
-    #516fe7, #FD746C,
-    #FF8235, #ffff1c,
-    #92FE9D, #00C9FF,
-    #a044ff, #e73827);
-    background-size: 1000% 1000%;
-    -webkit-animation: Gradient 100s ease infinite;
-    -moz-animation: Gradient 100s ease infinite;
-    animation: Gradient 100s ease infinite;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
