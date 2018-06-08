@@ -12,7 +12,7 @@ $('.slider-large').slick({
 
 $('.slider-small').slick({
     dots: false,
-    arrows: true,
+    arrows: false,
     autoplay: false,
     autoplaySpeed: 3000,
     infinite: true,
