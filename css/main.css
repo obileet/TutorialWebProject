@@ -331,6 +331,7 @@ a.menuLink:after {
 a.menuLink:hover:after {
     width: 100%;
     left: 0;
+
 }
 
 div.menuRow {
