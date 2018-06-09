@@ -43,14 +43,21 @@ function scrollBtnScrolling(hash) {
 }
 
 document.addEventListener("scroll", function () {
-    var xPosVision = $("#visionRow").position().top;
+    var xPosVision = $("#menuRow").position().top;
     var currentXPos = $(window).scrollTop();
 
     if (xPosVision > currentXPos) {
         $("#scrollBtn").css("display", "none");
+        $("#iconDiv").css("display", "none");
     } else {
-        $("#scrollBtn").css("display", "block");
+        if($(window).width() > 540) {
+            $("#scrollBtn").css("display", "block");
+            $("#scrollBtn").css("opacity", "1");
+        }
+
+        $("#iconDiv").css("display", "block");
+        $("#iconDiv").css("opacity", "1");
     }
 
-    $("#scrollDownBtn").css("opacity", 1 - $(window).scrollTop() / 250);
+    $("#scrollDownBtn").css("opacity", 1 - $(window).scrollTop() / 800);
 });

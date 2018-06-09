@@ -381,6 +381,7 @@ button.back-to-top:hover > i {
 }
 
 button.back-to-top {
+    opacity: 0;
     display: none;
     position: fixed;
     z-index: 10000000000000000000;
@@ -398,6 +399,7 @@ div.iconDiv {
     z-index: 999999999999999999999999999999999999 !important;
     position: fixed;
     top: 15px;
+    opacity: 0;
     left: 15px;
 }
 
