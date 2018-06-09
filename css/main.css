@@ -394,6 +394,35 @@ button.back-to-top {
     background-color: #282828;
 }
 
+div.iconDiv {
+    z-index: 999999999999999999999999999999999999 !important;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+}
+
+img.IconImg {
+    margin: 0 auto;
+    margin-top: 5px !important;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    background-size: 1000% 1000%;
+    -webkit-animation: animatedgradient 30s ease alternate infinite;
+    animation: animatedgradient 30s ease alternate infinite;
+    height: 64px;
+    border: solid 1px rgba(0, 0, 0, 0.1); }
+
 @keyframes spin {
 
     0% {
