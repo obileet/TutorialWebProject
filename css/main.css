@@ -177,6 +177,7 @@ div.imageRow {
 }
 
 a.hollowLink {
+    font-family: 'Open Sans', Fallback, sans-serif;
     border: 1px solid white;
     border-radius: 0px;
     color: white;
@@ -191,7 +192,7 @@ a.hollowLink {
 
 a.hollowLink p {
     position: relative;
-    top: 15%;
+    top: 20%;
 }
 
 a.hollowLink:hover {
