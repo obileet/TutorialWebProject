@@ -37,7 +37,7 @@ div.grayBackground {
 
 html, body {
     height: 100% !important;
-    font-family: 'Open Sans', Fallback, sans-serif !important;
+    font-family: 'Open Sans', Fallback, sans-serif;
 }
 
 input:focus {
@@ -133,7 +133,6 @@ a.scroll_down:before {
 
 div.imageRow {
     padding-top: 20px;
-    margin-left: 600px;
 }
 
 @keyframes scroll_down_btn-animation {
@@ -175,7 +174,7 @@ div.imageRow {
 }
 
 a.hollowLink {
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 0px;
     color: white;
     text-decoration: none !important;
@@ -194,7 +193,7 @@ a.hollowLink p {
 
 a.hollowLink:hover {
     color: gray;
-    border: 2px solid gray;
+    border: 1px solid gray;
 }
 
 div.gradBackground {
@@ -393,10 +392,6 @@ button.back-to-top {
     width: 45px;
     color: #fff;
     background-color: #282828;
-    right: 25px;
-    bottom: 25px;
-    height: 50px;
-    width: 50px;
 }
 
 @keyframes spin {
@@ -482,4 +477,9 @@ button.back-to-top {
     100% {
         background-position: 0% 50%;
     }
+}
+
+div .ImageMargin {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
 }
