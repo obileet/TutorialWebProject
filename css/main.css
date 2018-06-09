@@ -259,7 +259,7 @@ div.responsive-slick-large {
 
 /* the parent */
 .slick-list {
-    margin: 0 -15px;
+    margin: 0 -15px !important;
 }
 
 /* the slides */
