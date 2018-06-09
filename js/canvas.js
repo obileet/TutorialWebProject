@@ -8,11 +8,12 @@
     }
 
     function i(t) {
-            document.removeEventListener("mousemove", i),
-            document.removeEventListener("touchstart", i),
-            document.addEventListener("mousemove", d),
-            document.addEventListener("touchmove", d),
-            document.addEventListener("touchstart", u),
+
+        document.getElementById('canvas').removeEventListener("mousemove", i),
+            document.getElementById('canvas').removeEventListener("touchstart", i),
+            document.getElementById('canvas').addEventListener("mousemove", d),
+            document.getElementById('canvas').addEventListener("touchmove", d),
+            document.getElementById('canvas').addEventListener("touchstart", u),
             d(t),
             a(),
             o()
@@ -199,8 +200,8 @@
                     frequency: .0015,
                     offset: 285
                 }),
-                document.addEventListener("mousemove", i),
-                document.addEventListener("touchstart", i),
+                document.getElementById('canvas').addEventListener("mousemove", i),
+                document.getElementById('canvas').addEventListener("touchstart", i),
                 document.body.addEventListener("orientationchange", s),
                 t.addEventListener("resize", s),
                 t.addEventListener("keyup", c),
