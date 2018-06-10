@@ -56,7 +56,7 @@ document.addEventListener("scroll", function () {
         }
 
         $("#iconDiv").css("display", "block");
-        $("#iconDiv").css("opacity", "1");
+        $("#iconDiv").css("opacity", -0.7 + $(window).scrollTop() / 1000);
     }
 
     $("#scrollDownBtn").css("opacity", 1 - $(window).scrollTop() / 800);

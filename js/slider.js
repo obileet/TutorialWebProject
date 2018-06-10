@@ -1,5 +1,5 @@
 $('.slider-large').slick({
-    dots: false,
+    dots: true,
     arrows: false,
     autoplay: false,
     autoplaySpeed: 3000,
@@ -11,7 +11,7 @@ $('.slider-large').slick({
 ;
 
 $('.slider-small').slick({
-    dots: false,
+    dots: true,
     arrows: false,
     autoplay: false,
     autoplaySpeed: 3000,
