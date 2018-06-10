@@ -540,7 +540,7 @@ div .ImageMargin {
 
 @media (min-width: 540px) {
     .wideScreenMargin {
-        padding-right: 20px !important;
+        padding-right: 25px !important;
     }
 }
 
