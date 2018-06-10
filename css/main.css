@@ -549,3 +549,12 @@ div .ImageMargin {
         max-width: 140px !important;
     }
 }
+
+.impressum-three {
+    background-color: #171717;
+    color: white !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Open Sans' !important; }
+
+
