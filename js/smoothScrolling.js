@@ -43,7 +43,7 @@ function scrollBtnScrolling(hash) {
 }
 
 document.addEventListener("scroll", function () {
-    var xPosVision = $("#menuRow").position().top;
+    var xPosVision = $("#menu").position().top;
     var currentXPos = $(window).scrollTop();
 
     if (xPosVision > currentXPos) {
