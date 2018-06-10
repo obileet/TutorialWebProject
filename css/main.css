@@ -176,6 +176,16 @@ div.imageRow {
     }
 }
 
+a.footerLink {
+    font-family: 'Open Sans', Fallback, sans-serif;
+    color: gray;
+    text-decoration: none !important;
+}
+
+a.footerLink:hover {
+    color: white;
+}
+
 a.hollowLink {
     font-family: 'Open Sans', Fallback, sans-serif;
     border: 1px solid white;
