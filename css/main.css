@@ -304,6 +304,10 @@ div.responsive-slick-small {
     padding-top: 60px;
 }
 
+.bottomPadding {
+    padding-bottom: 60px;
+}
+
 .topContentPadding {
     padding: 30px
 }
