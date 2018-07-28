@@ -92,6 +92,8 @@ div.centerLeftText {
     background-color: transparent;
     cursor: default;
     outline: none;
+
+    letter-spacing: 3px;
 }
 
 a.scroll_down {
