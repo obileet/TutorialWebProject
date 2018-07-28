@@ -559,6 +559,9 @@ div .ImageMargin {
     color: white !important;
     padding-top: 50px;
     padding-bottom: 50px;
-    font-family: 'Open Sans' !important; }
+    font-family: 'Open Sans' !important;
+}
 
-
+h7 {
+    font-size: 12px !important;
+}
