@@ -3834,3 +3834,8 @@ background: #000;
         transform: translate(-50%, -50%);
 z-index: 0;
 }
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
