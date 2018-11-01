@@ -39,25 +39,40 @@
     14.2. works position reset
     14.3. contact position reset
 */
+function showServiceItem(itemID) {
 
+    $(".serviceItem1").fadeOut('slow');
+    $(".serviceItem2").fadeOut('slow');
+    $(".serviceItem3").fadeOut('slow');
+    $(".serviceItem4").fadeOut('slow');
+    $(".serviceItem5").fadeOut('slow');
+    $(".serviceItem6").fadeOut('slow');
+    $(".serviceItem7").fadeOut('slow');
+    $(".serviceItem8").fadeOut('slow');
+    $(".serviceItem9").fadeOut('slow');
 
-$(function() {
+    var serviceItem = document.getElementsByClassName(itemID);
+    $(serviceItem).delay(700).fadeIn('slow');
+
+}
+
+$(function () {
     "use strict";
-	
-	
-    $(window).on("load", function() {
+
+
+    $(window).on("load", function () {
         // 1. preloader
         $("#preloader").fadeOut(600);
         $(".preloader-bg").delay(400).fadeOut(600);
-		
+
         // 2. fadeIn.element
-        setTimeout(function() {
+        setTimeout(function () {
             $(".fadeIn-element").delay(600).css({
                 display: "none"
             }).fadeIn(800);
         }, 0);
     });
-	
+
     // 3. slick slider
     // 3.1. slick about slider
     $(".slick-about").slick({
@@ -107,7 +122,7 @@ $(function() {
         pauseOnFocus: false,
         pauseOnHover: false
     });
-	
+
     // 4. owl carousel
     // 4.1. owl works carousel
     $("#works-page-img-carousel").owlCarousel({
@@ -157,7 +172,7 @@ $(function() {
             }
         }
     });
-	
+
     // 5. magnificPopup
     $(".popup-photo").magnificPopup({
         type: "image",
@@ -170,9 +185,9 @@ $(function() {
         removalDelay: 300,
         mainClass: "mfp-fade"
     });
-	
+
     // 6. skills bar
-    $(".show-skillbar").appear(function() {
+    $(".show-skillbar").appear(function () {
         $(".skillbar").skillBars({
             from: 0,
             speed: 4000,
@@ -180,9 +195,9 @@ $(function() {
             decimals: 0
         });
     });
-	
+
     // 7. facts counter
-    $(".facts-counter-number").appear(function() {
+    $(".facts-counter-number").appear(function () {
         var count = $(this);
         count.countTo({
             from: 0,
@@ -191,32 +206,33 @@ $(function() {
             refreshInterval: 60
         });
     });
-	
+
     // 8. navigation
     // 8.1. navigation open/close
-    $(".navigation-icon").on("click", function() {
+    $(".navigation-icon").on("click", function () {
         $(this).toggleClass("active");
     });
-    $(".navigation-fire").on("click", function(e) {
+    $(".navigation-fire").on("click", function (e) {
         $(this).toggleClass("open");
         $("nav.navigation-menu").toggleClass("show");
     });
-    $("nav.navigation-menu a").on("click", function(e) {
+    $("nav.navigation-menu a").on("click", function (e) {
         var hash = $(this.hash);
         $("nav").removeClass("show");
         $(".navigation-fire").removeClass("open");
         $(".navigation-icon").removeClass("active");
     });
     // 8.2. navigation active state
-    $("a.menu-state").on("click", function() {
+    $("a.menu-state").on("click", function () {
         $("a.menu-state").removeClass("active");
         $(this).addClass("active");
     });
     // 8.3. navigation hover state
     hoverMenu();
     imgMenu();
+
     function hoverMenu() {
-        $(".menu li a").on("mouseenter", function() {
+        $(".menu li a").on("mouseenter", function () {
             var ref = $(this).data("ref"),
                 menuImg = $('.menu-img[data-ref="' + ref + '"]');
             $(".menu li a").removeClass("active");
@@ -225,8 +241,9 @@ $(function() {
             menuImg.addClass("active");
         });
     }
+
     function imgMenu() {
-        $("[data-bg]").each(function() {
+        $("[data-bg]").each(function () {
             var bg = $(this).data("bg");
             $(this).css({
                 "background-image": 'url(' + bg + ')',
@@ -235,7 +252,7 @@ $(function() {
             });
         });
     }
-	
+
     // 9. fullPage
     $("#fullpage").fullpage({
         anchors: ["home", "vision", "services", "projekte", "kontakt"],
@@ -245,19 +262,20 @@ $(function() {
         responsiveWidth: 900,
         autoScrolling: true,
         scrollBar: false,
-        afterResponsive: function(isResponsive) {}
+        afterResponsive: function (isResponsive) {
+        }
     });
-	
+
     // 10. YouTube player
     $("#bgndVideo").YTPlayer();
     // 10.1. highlight YouTube player navigation
-    $(".video-state").on("click", function() {
+    $(".video-state").on("click", function () {
         $(".video-state").removeClass("active");
         $(this).addClass("active");
     });
-	
+
     // 11. toggle news content
-    $(".c-btn-news").on("click", function() {
+    $(".c-btn-news").on("click", function () {
         var divClass = $(this).attr("data-id");
         if ($(this).hasClass("open")) {
             $(this).removeClass("open");
@@ -267,39 +285,39 @@ $(function() {
             $("." + divClass).addClass("open");
         }
     });
-    $(".inverse-dark").on("click", function() {
+    $(".inverse-dark").on("click", function () {
         $(".panel-left, .panel-right").removeClass("open");
     });
-	
+
     // 12. forms
     // 12.1. contact form
-    $("form#form").on("submit", function() {
+    $("form#form").on("submit", function () {
         $("form#form .error").remove();
         var s = !1;
-        if ($(".requiredField").each(function() {
-                if ("" === jQuery.trim($(this).val())) $(this).prev("label").text(), $(this).parent().append('<span class="error">Bitte füllen Sie dieses Feld aus</span>'), $(this).addClass(
-                    "inputError"), s = !0;
-                else if ($(this).hasClass("email")) {
-                    var r = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-                    r.test(jQuery.trim($(this).val())) || ($(this).prev("label").text(), $(this).parent().append('<span class="error">Keine gültige E-Mail Adresse</span>'), $(this).addClass(
-                        "inputError"), s = !0);
-                }
-            }), !s) {
-            $("form#form input.submit").fadeOut("normal", function() {
+        if ($(".requiredField").each(function () {
+            if ("" === jQuery.trim($(this).val())) $(this).prev("label").text(), $(this).parent().append('<span class="error">Bitte füllen Sie dieses Feld aus</span>'), $(this).addClass(
+                "inputError"), s = !0;
+            else if ($(this).hasClass("email")) {
+                var r = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+                r.test(jQuery.trim($(this).val())) || ($(this).prev("label").text(), $(this).parent().append('<span class="error">Keine gültige E-Mail Adresse</span>'), $(this).addClass(
+                    "inputError"), s = !0);
+            }
+        }), !s) {
+            $("form#form input.submit").fadeOut("normal", function () {
                 $(this).parent().append("");
             });
             var r = $(this).serialize();
-            $.post($(this).attr("action"), r, function() {
-                $("form#form").slideUp("fast", function() {
+            $.post($(this).attr("action"), r, function () {
+                $("form#form").slideUp("fast", function () {
                     $(this).before('<div class="success">Ihre Nachricht wurde erfolgreich versendet.</div>');
                 });
             });
         }
         return !1;
     });
-	
+
     // 13. contact modal
-    $(".contact-modal-launcher, .contact-modal-closer").on("click", function() {
+    $(".contact-modal-launcher, .contact-modal-closer").on("click", function () {
         if ($(".contact-modal").hasClass("open")) {
             $(".contact-modal").removeClass("open").addClass("close");
         } else {
@@ -307,17 +325,18 @@ $(function() {
         }
     });
     // 13.1. contact modal additional CLOSER
-    $(".navigation-icon, .logo").on("click", function() {
+    $(".navigation-icon, .logo").on("click", function () {
         $(".contact-modal").removeClass("open").addClass("close");
     });
 
+    $("#footerSection").children(0).css("height","");
 
 });
 
 
 // 14. section position reset
 // 14.1. news position reset
-$(".c-btn-news").on("click", function() {
+$(".c-btn-news").on("click", function () {
     target = $(".news-page-img-wrapper");
     $("html, body").animate({
         scrollTop: target.offset().top
@@ -325,7 +344,7 @@ $(".c-btn-news").on("click", function() {
 });
 
 // 14.2. works position reset
-$(".c-btn-projekte").on("click", function() {
+$(".c-btn-projekte").on("click", function () {
     target = $(".works-page-img-wrapper");
     $("html, body").animate({
         scrollTop: target.offset().top
@@ -333,9 +352,10 @@ $(".c-btn-projekte").on("click", function() {
 });
 
 // 14.3. contact position reset
-$(".contact-modal-launcher").on("click", function() {
+$(".contact-modal-launcher").on("click", function () {
     target = $(".contact-reset");
     $("html, body").animate({
         scrollTop: target.offset().top
     }, 500);
 });
+
