@@ -3930,12 +3930,15 @@ footer p {
     margin: 0 12px;
 }
 
+
+/**
+
 #footerSection {
     height: auto;
     max-height: 345px !important;
 }
 
-/**
+
 #footerSection > .fp-tableCell {
     height: 345px !important;
 }
