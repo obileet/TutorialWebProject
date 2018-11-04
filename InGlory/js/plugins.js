@@ -12873,9 +12873,11 @@ $(function () {
             duration: i,
             offset: -120
         }).addTo(l).on("enter", function (o) {
-            $(".logo").removeClass("logo-light"), $(".navigation-icon .line").addClass("line-dark")
+            $(".logo").removeClass("logo-light"), $(".navigation-icon .line").addClass("line-dark"),
+            $(".logoImpressum").removeClass("logo-dark").addClass("logo-light");
         }).on("leave", function (o) {
-            $(".logo").addClass("logo-light"), $(".navigation-icon .line").removeClass("line-dark")
+            $(".logo").addClass("logo-light"), $(".navigation-icon .line").removeClass("line-dark"),
+                $(".logoImpressum").removeClass("logo-light").addClass("logo-dark");
         });
         $(window).on("resize", function () {
             t.duration(n.outerHeight())
