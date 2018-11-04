@@ -552,6 +552,19 @@ strong {
     }
 }
 
+.navigation-icon .line {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 8px auto;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+}
+
 .navigation-icon .menuline-dark {
     display: block;
     width: 35px;

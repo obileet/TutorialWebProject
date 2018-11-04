@@ -56,9 +56,13 @@ function showServiceItem(itemID) {
 
 }
 
+var homeInit = false;
+var impressumInit = false;
+
 $(function () {
     "use strict";
 
+//initializing
 
     $(window).on("load", function () {
         // 1. preloader
@@ -254,29 +258,6 @@ $(function () {
     }
 
     // 9. fullPage
-    $("#fullpage").fullpage({
-        anchors: ["home", "vision", "services", "projekte", "kontakt","footer"],
-        navigation: true,
-        navigationPosition: "right",
-        navigationTooltips: ["Home", "Vision", "Services", "Projekte", "Kontakt"],
-        responsiveWidth: 900,
-        autoScrolling: true,
-        scrollBar: false,
-        afterResponsive: function (isResponsive) {
-        }
-    });
-
-    $("#fullpageImpressum").fullpage({
-        anchors: ["impressum", "fullimpressum", "footer"],
-        navigation: true,
-        navigationPosition: "right",
-        navigationTooltips: ["Home", "Vision", "Services", "Projekte", "Kontakt"],
-        responsiveWidth: 900,
-        autoScrolling: true,
-        scrollBar: false,
-        afterResponsive: function (isResponsive) {
-        }
-    });
 
     // 10. YouTube player
     $("#bgndVideo").YTPlayer();
@@ -341,7 +322,7 @@ $(function () {
         $(".contact-modal").removeClass("open").addClass("close");
     });
 
-    $("#footerSection").children(0).css("height","");
+    $("#footerSection").children(0).css("height", "");
 
 });
 
