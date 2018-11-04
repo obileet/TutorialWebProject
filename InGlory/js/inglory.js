@@ -266,6 +266,18 @@ $(function () {
         }
     });
 
+    $("#fullpageImpressum").fullpage({
+        anchors: ["impressum", "fullimpressum", "footer"],
+        navigation: true,
+        navigationPosition: "right",
+        navigationTooltips: ["Home", "Vision", "Services", "Projekte", "Kontakt"],
+        responsiveWidth: 900,
+        autoScrolling: true,
+        scrollBar: false,
+        afterResponsive: function (isResponsive) {
+        }
+    });
+
     // 10. YouTube player
     $("#bgndVideo").YTPlayer();
     // 10.1. highlight YouTube player navigation

@@ -552,7 +552,7 @@ strong {
     }
 }
 
-.navigation-icon .line {
+.navigation-icon .menuline-dark {
     display: block;
     width: 35px;
     height: 3px;
@@ -562,7 +562,38 @@ strong {
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
-    background-color: #fff;
+    background-color: black;
+}
+
+#navigation-icon.active .menuline-dark:nth-child(1) {
+    -webkit-transform: translateY(11px);
+    -moz-transform: translateY(11px);
+    -ms-transform: translateY(11px);
+    -o-transform: translateY(11px);
+    transform: translateY(11px);
+    background-color: black;
+}
+
+#navigation-icon.active .menuline-dark:nth-child(3) {
+    -webkit-transform: translateY(-11px);
+    -moz-transform: translateY(-11px);
+    -ms-transform: translateY(-11px);
+    -o-transform: translateY(-11px);
+    transform: translateY(-11px);
+    background-color: white;
+}
+
+.navigation-icon .menuline-dark {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 8px auto;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: black;
 }
 
 #navigation-icon.active .line:nth-child(1) {
@@ -3564,6 +3595,11 @@ a:hover .c-btn {
     #fullpage {
         overflow-x: hidden;
     }
+
+    #fullpageImpressum {
+        overflow-x: hidden;
+    }
+
 }
 
 #fp-nav.right,
@@ -3966,4 +4002,70 @@ footer p {
 .contact-person address {
     font-style: normal;
     color: #8e8ea1;
+}
+
+.impressum-three {
+    color: black !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.impressumRow {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media (min-width: 991px) {
+    .offset-md-2 {
+        margin-left: 16.666667%;
+    }
+}
+
+@media (max-width: 991px) {
+    .offset-md-2 {
+        margin-top: 20px !important;
+        text-align: center !important;
+    }
+
+    .col-md-3 {
+        margin-top: 20px !important;
+        text-align: center !important;
+    }
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.grayText {
+    color: gray !important;
+    font-size: 25px !important;
+}
+
+.grayImpressumText {
+    color: gray !important;
+    display: inline-block;
+}
+
+.blackBlackground {
+    background-color: black !important;
+}
+
+div.centerLeftText {
+    margin: auto;
+    text-align: left !important;
+}
+
+.topContentPadding {
+    padding: 30px;
+}
+
+.whiteText {
+    font-size: 25px !important;
+    color: white !important;
 }
