@@ -12874,10 +12874,12 @@ $(function () {
             offset: -120
         }).addTo(l).on("enter", function (o) {
             $(".logo").removeClass("logo-light"), $(".navigation-icon .line").addClass("line-dark"),
-            $(".logoImpressum").removeClass("logo-dark").addClass("logo-light");
+            $(".logoImpressum").removeClass("logo-dark").addClass("logo-light"),
+            $(".impressumLine").addClass("line").removeClass("menuline-dark");
         }).on("leave", function (o) {
             $(".logo").addClass("logo-light"), $(".navigation-icon .line").removeClass("line-dark"),
-                $(".logoImpressum").removeClass("logo-light").addClass("logo-dark");
+                $(".logoImpressum").removeClass("logo-light").addClass("logo-dark"),
+                $(".impressumLine").addClass("menuline-dark").removeClass("line");;
         });
         $(window).on("resize", function () {
             t.duration(n.outerHeight())
