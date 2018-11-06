@@ -4116,3 +4116,14 @@ div.centerLeftText {
     transition: all 0.5s linear;
     text-decoration: none !important;
 }
+
+span.service-index {
+    position: absolute;
+    top: -127%;
+    left: -13%;
+    font-weight: 400;
+    font-size: 20rem;
+    line-height: 7.6rem;
+    color: gray;
+}
+
