@@ -60,7 +60,7 @@
                 <div class="navigation-menu-txt">
                     <ul class="menu brackets">
                         <li>
-                            <a class="menu-state active" data-ref="menu-1" href="#home">Home</a>
+                            <a class="menu-state" data-ref="menu-1" href="#home">Home</a>
                         </li>
                         <li>
                             <a class="menu-state" data-ref="menu-2" href="#vision">Vision</a>
@@ -294,33 +294,32 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <ul class="serviceText" style="text-align: left !important; margin-left: 25%">
-                                    <li>
-                                        01<span class="serviceMenuText hover_effect"
-                                                onclick="showServiceItem('serviceItem1')">Beratung, Planung und Strategie</span>
+                                    <li class="hoverLink" onclick="showServiceItem('serviceItem1')">
+                                        01<span class="serviceMenuText">Beratung, Planung und Strategie</span>
                                     </li>
-                                    <li>
-                                        02<span class="serviceMenuText" onclick="showServiceItem('serviceItem2')">Erneuerungen von veralteten Medien</span>
+                                    <li class="hoverLink" onclick="showServiceItem('serviceItem2')">
+                                        02<span class="serviceMenuText">Erneuerungen von veralteten Medien</span>
                                     </li>
-                                    <li>
-                                        03<span class="serviceMenuText" onclick="showServiceItem('serviceItem3')">Re-Digitalisierungen</span>
+                                    <li class="hoverLink" onclick="showServiceItem('serviceItem3')">
+                                        03<span class="serviceMenuText">Re-Digitalisierungen</span>
                                     </li>
-                                    <li>
-                                        04<span class="serviceMenuText" onclick="showServiceItem('serviceItem4')">Websites</span>
+                                    <li class="hoverLink" onclick="showServiceItem('serviceItem4')">
+                                        04<span class="serviceMenuText">Websites</span>
                                     </li>
-                                    <li>
-                                        05<span class="serviceMenuText" onclick="showServiceItem('serviceItem5')">Print & Branding Design</span>
+                                    <li class="hoverLink" onclick="showServiceItem('serviceItem5')">
+                                        05<span class="serviceMenuText">Print & Branding Design</span>
                                     </li>
-                                    <li>
-                                        06<span class="serviceMenuText" onclick="showServiceItem('serviceItem6')">User Interface Design</span>
+                                    <li class="hoverLink" onclick="showServiceItem('serviceItem6')">
+                                        06<span class="serviceMenuText">User Interface Design</span>
                                     </li>
-                                    <li>
-                                        07<span class="serviceMenuText" onclick="showServiceItem('serviceItem7')">Content Management Systeme</span>
+                                    <li class="hoverLink" onclick="showServiceItem('serviceItem7')">
+                                        07<span class="serviceMenuText">Content Management Systeme</span>
                                     </li>
-                                    <li>
-                                        08<span class="serviceMenuText" onclick="showServiceItem('serviceItem8')">Markenrechtliche Beratung</span>
+                                    <li class="hoverLink" onclick="showServiceItem('serviceItem8')">
+                                        08<span class="serviceMenuText">Markenrechtliche Beratung</span>
                                     </li>
-                                    <li>
-                                        09<span class="serviceMenuText" onclick="showServiceItem('serviceItem9')">Qualitätssicherung</span>
+                                    <li class="hoverLink" onclick="showServiceItem('serviceItem9')">
+                                        09<span class="serviceMenuText">Qualitätssicherung</span>
                                     </li>
                                 </ul>
                             </div>
@@ -841,8 +840,6 @@
         <footer class="footer">
             <div class="container bottom_border">
                 <div class="row">
-
-
                     <div class="col-sm-12 col-md-8">
                         <h5 class="headin5_amrc col_white_amrc pt2">KONTAKT</h5>
                         <div class="row">
@@ -864,19 +861,19 @@
                     <div class="col-xs-6 col-sm-6 col-md-2" style="text-align: right !important;">
                         <h5 class="headin5_amrc col_white_amrc pt2">MENU</h5>
                         <ul class="footer_ul_amrc">
-                            <li><a href="index.html#home">Home</a></li>
-                            <li><a href="index.html#vision">Vision</a></li>
-                            <li><a href="index.html#services">Services</a></li>
-                            <li><a href="index.html#projekte">Projekte</a></li>
-                            <li><a href="index.html#kontakt">Kontakt</a></li>
+                            <li><a class="hoverLink" href="index.html#home">Home</a></li>
+                            <li><a class="hoverLink" href="index.html#vision">Vision</a></li>
+                            <li><a class="hoverLink" href="index.html#services">Services</a></li>
+                            <li><a class="hoverLink" href="index.html#projekte">Projekte</a></li>
+                            <li><a class="hoverLink" href="index.html#kontakt">Kontakt</a></li>
                         </ul>
                     </div>
 
                     <div class="col-xs-6 col-sm-6 col-md-2">
                         <h5 class="headin5_amrc col_white_amrc pt2">RECHTLICHES</h5>
                         <ul class="footer_ul_amrc">
-                            <li><a href="impressum.html">Impressum</a></li>
-                            <li><a href="datenschutz.html">Datenschutz</a></li>
+                            <li><a class="hoverLink" href="impressum.html">Impressum</a></li>
+                            <li><a class="hoverLink" href="datenschutz.html">Datenschutz</a></li>
                         </ul>
                     </div>
                 </div>
