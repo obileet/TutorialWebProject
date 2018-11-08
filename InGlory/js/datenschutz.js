@@ -10,8 +10,9 @@ $(function () {
         navigationPosition: "right",
         navigationTooltips: ["Home", "Vision", "Services", "Projekte", "Kontakt"],
         responsiveWidth: 900,
-        autoScrolling: true,
-        scrollBar: false,
+        autoScrolling: false,
+        fitToSection: false,
+        scrollBar: true,
         afterResponsive: function (isResponsive) {
         }
     });
