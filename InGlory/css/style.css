@@ -524,6 +524,11 @@ strong {
         top: 25px;
         left: 25px;
     }
+
+    div.iconDiv {
+        top: 25px !important;
+        left: 25px !important;
+    }
 }
 
 .logo-img:before {
