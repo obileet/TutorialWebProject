@@ -4119,11 +4119,11 @@ div.centerLeftText {
 
 span.service-index {
     position: absolute;
-    top: -127%;
+    top: -120px;
     left: -13%;
     font-weight: 400;
     font-size: 20rem;
     line-height: 7.6rem;
-    color: gray;
+    color: #e9e9e9
 }
 
