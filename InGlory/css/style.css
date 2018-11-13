@@ -4182,3 +4182,17 @@ img.IconImg {
         background-position: 0% 50%;
     }
 }
+
+@media (min-width: 401px) {
+    .logoSize {
+        width: 100% !important;
+        max-width: 533px !important;"
+    }
+}
+
+@media (max-width: 400px) {
+    .logoSize {
+        width: 100% !important;
+        max-width: 300px !important;"
+    }
+}
