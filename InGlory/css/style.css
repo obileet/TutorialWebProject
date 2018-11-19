@@ -3921,7 +3921,7 @@ footer {
 
 footer p {
     font-size: 13px;
-    color: #CCC;
+    color: #5f5f5f;
     padding-bottom: 0px;
     margin-bottom: 8px;
 }
@@ -3972,7 +3972,7 @@ footer p {
 }
 
 .bottom_border {
-    border-bottom: 1px solid #323f45;
+    border-bottom: 1px solid #5f5f5f;
     padding-bottom: 20px;
 }
 
@@ -4043,7 +4043,7 @@ footer p {
 
 .contact-person address {
     font-style: normal;
-    color: #8e8ea1;
+    color: #5f5f5f;
 }
 
 .impressum-three {
