@@ -4112,6 +4112,10 @@ div.centerLeftText {
     color: white !important;
 }
 
+.whiteFooterText {
+    color: white !important;
+}
+
 .hoverLinkActive {
     color: #777777;
 }

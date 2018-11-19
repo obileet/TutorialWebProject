@@ -5,7 +5,7 @@ $(function () {
     }
 
     $("#fullpage").fullpage({
-        anchors: ["home", "vision", "services", "projekte", "kontakt", "footer"],
+        anchors: ["home", "vision", "leistungen", "projekte", "kontakt", "footer"],
         navigation: true,
         navigationPosition: "right",
         navigationTooltips: ["Home", "Vision", "Services", "Projekte", "Kontakt"],
