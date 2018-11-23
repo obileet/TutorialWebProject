@@ -176,36 +176,36 @@
 
 /* 1.5. news IMG carousel IMG BACKGROUND */
 .news-page-img-carousel-item-1 {
-    background-image: url(../img/news/news-page-img-carousel-item-1.jpg);
+    background-image: url(../img/news/ref1.jpg);
 }
 
 .news-page-img-carousel-item-2 {
-    background-image: url(../img/news/news-page-img-carousel-item-2.jpg);
+    background-image: url(../img/news/ref2.jpg);
 }
 
 .news-page-img-carousel-item-3 {
-    background-image: url(../img/news/news-page-img-carousel-item-3.jpg);
+    background-image: url(../img/news/ref4.jpg);
 }
 
 .news-page-img-carousel-item-4 {
-    background-image: url(../img/news/news-page-img-carousel-item-4.jpg);
+    background-image: url(../img/news/ref3.jpg);
 }
 
 /* 1.5.1. news panel left bg IMG BACKGROUND */
 .panel-left.panel-left-bg-1 {
-    background-image: url(../img/news/news-page-img-carousel-item-1.jpg);
+    background-image: url(../img/news/ref1.jpg);
 }
 
 .panel-left.panel-left-bg-2 {
-    background-image: url(../img/news/news-page-img-carousel-item-2.jpg);
+    background-image: url(../img/news/ref2.jpg);
 }
 
 .panel-left.panel-left-bg-3 {
-    background-image: url(../img/news/news-page-img-carousel-item-3.jpg);
+    background-image: url(../img/news/ref4.jpg);
 }
 
 .panel-left.panel-left-bg-4 {
-    background-image: url(../img/news/news-page-img-carousel-item-4.jpg);
+    background-image: url(../img/news/ref3.jpg);
 }
 
 /* 1.6. contact IMG BACKGROUND */
@@ -533,7 +533,7 @@ strong {
 
 .logo-img:before {
     content: "";
-    background: url(../img/logo-black.png) no-repeat;
+    background: url(../img/logo/logo-black.png) no-repeat;
     display: block;
     width: 48px;
     height: 48px;
@@ -547,7 +547,7 @@ strong {
 
 .logo-img-dark:before {
     content: "";
-    background: url(../img/logo-white.png) no-repeat;
+    background: url(../img/logo/logo-white.png) no-repeat;
     display: block;
     width: 48px;
     height: 48px;
@@ -560,11 +560,11 @@ strong {
 }
 
 .logo-light .logo-img:before {
-    background: url(../img/logo-white.png) no-repeat;
+    background: url(../img/logo/logo-white.png) no-repeat;
 }
 
 .logo-dark .logo-img-dark:before {
-    background: url(../img/logo-black.png) no-repeat;
+    background: url(../img/logo/logo-black.png) no-repeat;
 }
 
 /* 4.2 navigation */
