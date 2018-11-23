@@ -4206,3 +4206,8 @@ img.IconImg {
         max-width: 300px !important;"
     }
 }
+@media (max-width: 1044px) {
+    .hide-md {
+        display: none !important;
+    }
+}

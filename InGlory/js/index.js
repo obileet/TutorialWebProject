@@ -4,6 +4,8 @@ $(function () {
         $.fn.fullpage.destroy('all');
     }
 
+    $("#leistung1Content").load("leistung1.html");
+
     $("#fullpage").fullpage({
         anchors: ["home", "vision", "leistungen", "projekte", "kontakt", "footer"],
         navigation: true,
