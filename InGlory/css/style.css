@@ -4207,7 +4207,13 @@ img.IconImg {
     }
 }
 @media (max-width: 1044px) {
-    .hide-md {
+    .hide-leistungen {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1044px) {
+    .hide-leistungSlider {
         display: none !important;
     }
 }
