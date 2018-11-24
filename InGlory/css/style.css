@@ -92,7 +92,7 @@
 /* 1. TEMPLATE BACKGROUNDS */
 /* 1.1. home IMG BACKGROUND */
 .section-bg-home {
-    background-image: url(../img/background/home-bg.jpg);
+    background-image: url(../img/background/homebg.jpg);
 }
 
 /* 1.2. about IMG BACKGROUND */
@@ -136,7 +136,7 @@
 
 /* 1.6. contact IMG BACKGROUND */
 .contact-bg {
-    background-image: url(../img/contact/contact-bg.jpg);
+    background-image: url(../img/contact/contactbg.jpg);
 }
 
 /* 1.7. slick fullscreen slideshow IMG BACKGROUND */

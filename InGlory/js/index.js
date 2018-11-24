@@ -4,15 +4,15 @@ $(function () {
         $.fn.fullpage.destroy('all');
     }
 
-    $("#leistung1Content").load("leistung1.html");
-    $("#leistung2Content").load("leistung2.html");
-    $("#leistung3Content").load("leistung3.html");
-    $("#leistung4Content").load("leistung4.html");
-    $("#leistung5Content").load("leistung5.html");
-    $("#leistung6Content").load("leistung6.html");
-    $("#leistung7Content").load("leistung7.html");
-    $("#leistung8Content").load("leistung8.html");
-    $("#leistung9Content").load("leistung9.html");
+    $("#leistung1Content").load("leistungen/ls1.html");
+    $("#leistung2Content").load("leistungen/ls2.html");
+    $("#leistung3Content").load("leistungen/ls3.html");
+    $("#leistung4Content").load("leistungen/ls4.html");
+    $("#leistung5Content").load("leistungen/ls5.html");
+    $("#leistung6Content").load("leistungen/ls6.html");
+    $("#leistung7Content").load("leistungen/ls7.html");
+    $("#leistung8Content").load("leistungen/ls8.html");
+    $("#leistung9Content").load("leistungen/ls9.html");
 
     $("#footerContent").load("footer.html");
 
