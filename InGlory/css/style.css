@@ -97,115 +97,41 @@
 
 /* 1.2. about IMG BACKGROUND */
 .about-bg {
-    background-image: url(../img/about/about-bg.jpg);
-}
-
-/* 1.3. services IMG BACKGROUND */
-.services-bg-1 {
-    background-image: url(../img/services/services-bg-1.jpg);
-}
-
-.services-bg-2 {
-    background-image: url(../img/services/services-bg-2.jpg);
-}
-
-.services-bg-3 {
-    background-image: url(../img/services/services-bg-3.jpg);
-}
-
-.services-bg-4 {
-    background-image: url(../img/services/services-bg-4.jpg);
-}
-
-.services-bg-5 {
-    background-image: url(../img/services/services-bg-5.jpg);
-}
-
-.services-bg-6 {
-    background-image: url(../img/services/services-bg-6.jpg);
-}
-
-/* 1.4. works IMG carousel IMG BACKGROUND */
-.works-page-img-carousel-item-1 {
-    background-image: url(../img/works/works-page-img-carousel-item-1.jpg);
-}
-
-.works-page-img-carousel-item-2 {
-    background-image: url(../img/works/works-page-img-carousel-item-2.jpg);
-}
-
-.works-page-img-carousel-item-3 {
-    background-image: url(../img/works/works-page-img-carousel-item-3.jpg);
-}
-
-.works-page-img-carousel-item-4 {
-    background-image: url(../img/works/works-page-img-carousel-item-4.jpg);
-}
-
-.works-page-img-carousel-item-5 {
-    background-image: url(../img/works/works-page-img-carousel-item-5.jpg);
-}
-
-.works-page-img-carousel-item-6 {
-    background-image: url(../img/works/works-page-img-carousel-item-6.jpg);
-}
-
-.works-page-img-carousel-item-7 {
-    background-image: url(../img/works/works-page-img-carousel-item-7.jpg);
-}
-
-.works-page-img-carousel-item-8 {
-    background-image: url(../img/works/works-page-img-carousel-item-8.jpg);
-}
-
-.works-page-img-carousel-item-9 {
-    background-image: url(../img/works/works-page-img-carousel-item-9.jpg);
-}
-
-.works-page-img-carousel-item-10 {
-    background-image: url(../img/works/works-page-img-carousel-item-10.jpg);
-}
-
-.works-page-img-carousel-item-11 {
-    background-image: url(../img/works/works-page-img-carousel-item-11.jpg);
-}
-
-.works-page-img-carousel-item-12 {
-    background-image: url(../img/works/works-page-img-carousel-item-12.jpg);
+    background-image: url(../img/vision/vision.jpg);
 }
 
 /* 1.5. news IMG carousel IMG BACKGROUND */
 .news-page-img-carousel-item-1 {
-    background-image: url(../img/news/ref1.jpg);
+    background-image: url(../img/references/ref1.jpg);
 }
 
 .news-page-img-carousel-item-2 {
-    background-image: url(../img/news/ref2.jpg);
+    background-image: url(../img/references/ref2.jpg);
 }
 
 .news-page-img-carousel-item-3 {
-    background-image: url(../img/news/ref4.jpg);
+    background-image: url(../img/references/ref3.jpg);
 }
 
 .news-page-img-carousel-item-4 {
-    background-image: url(../img/news/ref3.jpg);
+    background-image: url(../img/references/ref4.jpg);
 }
 
 /* 1.5.1. news panel left bg IMG BACKGROUND */
 .panel-left.panel-left-bg-1 {
-    background-image: url(../img/news/ref1.jpg);
+    background-image: url(../img/references/ref1.jpg);
 }
 
 .panel-left.panel-left-bg-2 {
-    background-image: url(../img/news/ref2.jpg);
+    background-image: url(../img/references/ref2.jpg);
 }
 
 .panel-left.panel-left-bg-3 {
-    background-image: url(../img/news/ref4.jpg);
+    background-image: url(../img/references/ref3.jpg);
 }
 
 .panel-left.panel-left-bg-4 {
-    background-image: url(../img/news/ref3.jpg);
+    background-image: url(../img/references/ref4jpg);
 }
 
 /* 1.6. contact IMG BACKGROUND */
