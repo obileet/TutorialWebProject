@@ -4,6 +4,8 @@ $(function () {
         $.fn.fullpage.destroy('all');
     }
 
+    $("#footerDatenschutzContent").load("footer.html");
+
     $("#datenschutzPage").fullpage({
         anchors: ["datenschutz", "footer"],
         navigation: true,

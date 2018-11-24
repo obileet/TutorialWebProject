@@ -3,6 +3,9 @@ $(function () {
         $.fn.fullpage.destroy('all');
     }
 
+
+    $("#footerImpressumContent").load("footer.html");
+
     $("#fullpageImpressum").fullpage({
         anchors: ["impressum", "fullimpressum", "footer"],
         navigation: true,

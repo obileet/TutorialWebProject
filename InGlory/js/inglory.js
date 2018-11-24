@@ -64,6 +64,8 @@ $(function () {
 
 //initializing
 
+
+
     $(window).on("load", function () {
         // 1. preloader
         $("#preloader").fadeOut(600);

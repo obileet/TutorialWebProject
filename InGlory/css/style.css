@@ -4132,3 +4132,14 @@ img.IconImg {
         max-width: 300px !important;"
     }
 }
+@media (max-width: 1044px) {
+    .hide-leistungen {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1044px) {
+    .hide-leistungSlider {
+        display: none !important;
+    }
+}
