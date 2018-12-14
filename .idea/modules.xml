@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/InGlory.iml" filepath="$PROJECT_DIR$/InGlory.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/TutorialWebProject.iml" filepath="$PROJECT_DIR$/.idea/TutorialWebProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/TutorialWebProject.iml" filepath="$PROJECT_DIR$/.idea/TutorialWebProject.iml" />
     </modules>
   </component>
