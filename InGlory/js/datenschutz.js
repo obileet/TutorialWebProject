@@ -18,4 +18,15 @@ $(function () {
         afterResponsive: function (isResponsive) {
         }
     });
+
+    $(window).scroll(function(){
+        var scrollTopVar = $(window).scrollTop();
+        if(scrollTopVar > 0) {
+            $(".datenschutzLine").addClass("line").removeClass("menuline-dark");
+        } else {
+            $(".datenschutzLine").addClass("menuline-dark").removeClass("line");
+
+        }
+    });
+
 });
