@@ -4119,6 +4119,10 @@ img.IconImg {
         width: 100% !important;
         max-width: 300px !important;"
     }
+
+    .contact-person {
+        text-align: center;
+    }
 }
 @media (max-width: 768px) {
     .hide-leistungen {
