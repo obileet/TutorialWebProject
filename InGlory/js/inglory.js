@@ -84,7 +84,7 @@ $(function () {
     $(".slick-about").slick({
         arrows: true,
         initialSlide: 0,
-        infinite: false,
+        infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         prevArrow: "<i class='slick-prev icon ion-chevron-left'></i>",

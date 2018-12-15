@@ -5,7 +5,9 @@ $(function () {
     }
 
     $("#leistung1Content").load("leistungen/ls1.html");
+    $("#leistung1SliderContent").load("leistungen/ls1.html");
     $("#leistung2Content").load("leistungen/ls2.html");
+    $("#leistung2SliderContent").load("leistungen/ls2.html");
     $("#leistung3Content").load("leistungen/ls3.html");
     $("#leistung4Content").load("leistungen/ls4.html");
     $("#leistung5Content").load("leistungen/ls5.html");
