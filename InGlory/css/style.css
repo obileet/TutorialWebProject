@@ -117,6 +117,10 @@
     background-image: url(../img/references/ref4.jpg);
 }
 
+.news-page-img-carousel-item-5 {
+    background-image: url(../img/references/ref5.jpg);
+}
+
 /* 1.5.1. news panel left bg IMG BACKGROUND */
 .panel-left.panel-left-bg-1 {
     background-image: url(../img/references/ref1.jpg);
@@ -157,6 +161,10 @@
 }
 
 .bg-img-4 {
+    background-image: url(../img/background/hero-bg-4.jpg);
+}
+
+.bg-img-5 {
     background-image: url(../img/background/hero-bg-4.jpg);
 }
 
