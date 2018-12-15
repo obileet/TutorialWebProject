@@ -134,6 +134,10 @@
     background-image: url(../img/references/ref4.jpg);
 }
 
+.panel-left.panel-left-bg-5 {
+    background-image: url(../img/references/ref1.jpg);
+}
+
 /* 1.6. contact IMG BACKGROUND */
 .contact-bg {
     background-image: url(../img/contact/contactbg.jpg);
