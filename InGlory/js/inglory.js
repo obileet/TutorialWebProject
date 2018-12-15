@@ -95,65 +95,8 @@ $(function () {
         cssEase: "ease",
         speed: 500
     });
-    // 3.2. slick services slider
-    $(".slick-services").slick({
-        arrows: true,
-        initialSlide: 0,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        prevArrow: "<i class='slick-prev icon ion-chevron-left'></i>",
-        nextArrow: "<i class='slick-next icon ion-chevron-right'></i>",
-        fade: false,
-        autoplay: false,
-        autoplaySpeed: 4000,
-        cssEase: "ease",
-        speed: 500
-    });
-    // 3.3. slick fullscreen slideshow
-    $(".slick-fullscreen-slideshow").slick({
-        arrows: false,
-        initialSlide: 0,
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        fade: true,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        cssEase: "ease",
-        speed: 1600,
-        draggable: true,
-        dots: false,
-        pauseOnDotsHover: false,
-        pauseOnFocus: false,
-        pauseOnHover: false
-    });
 
-    // 4. owl carousel
-    // 4.1. owl works carousel
-    $("#works-page-img-carousel").owlCarousel({
-        loop: false,
-        center: false,
-        items: 3,
-        margin: 0,
-        autoplay: false,
-        autoplaySpeed: 1000,
-        autoplayTimeout: 5000,
-        smartSpeed: 450,
-        nav: true,
-        navText: ["<i class='owl-custom ion-chevron-left'></i>", "<i class='owl-custom ion-chevron-right'></i>"],
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            1170: {
-                items: 3
-            }
-        }
-    });
+
     // 4.2. owl news carousel
     $("#news-page-img-carousel").owlCarousel({
         loop: true,
