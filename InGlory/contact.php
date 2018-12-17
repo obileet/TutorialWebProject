@@ -1,6 +1,6 @@
 ﻿<?php
 $errors  = '';
-$myemail = 'info@inglory.de';
+$myemail = 'mail@inglory.de';
 if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['subject']) || empty($_POST['message'])) {
     $errors .= "\n Fehler: Bitte Füllen Sie diese Feld aus";
 }
