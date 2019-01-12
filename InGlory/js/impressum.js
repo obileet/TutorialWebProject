@@ -12,7 +12,8 @@ $(function () {
         navigationPosition: "right",
         navigationTooltips: ["Home", "Vision", "Services", "Projekte", "Kontakt"],
         responsiveWidth: 900,
-        autoScrolling: true,
+        autoScrolling: false,
+        fitToSection: false,
         scrollBar: false,
         afterResponsive: function (isResponsive) {
         }

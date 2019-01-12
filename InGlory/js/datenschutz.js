@@ -14,7 +14,7 @@ $(function () {
         responsiveWidth: 900,
         autoScrolling: false,
         fitToSection: false,
-        scrollBar: true,
+        scrollBar: false,
         afterResponsive: function (isResponsive) {
         }
     });
