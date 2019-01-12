@@ -41,19 +41,19 @@
 */
 function showServiceItem(itemID) {
 
-    $(".serviceItem1").fadeOut('slow');
-    $(".serviceItem2").fadeOut('slow');
-    $(".serviceItem3").fadeOut('slow');
-    $(".serviceItem4").fadeOut('slow');
-    $(".serviceItem5").fadeOut('slow');
-    $(".serviceItem6").fadeOut('slow');
-    $(".serviceItem7").fadeOut('slow');
-    $(".serviceItem8").fadeOut('slow');
-    $(".serviceItem9").fadeOut('slow');
+    $(".serviceItem1").hide();
+    $(".serviceItem2").hide();
+    $(".serviceItem3").hide();
+    $(".serviceItem4").hide();
+    $(".serviceItem5").hide();
+    $(".serviceItem6").hide();
+    $(".serviceItem7").hide();
+    $(".serviceItem8").hide();
+    $(".serviceItem9").hide();
+
 
     var serviceItem = document.getElementsByClassName(itemID);
-    $(serviceItem).delay(700).fadeIn('slow');
-
+    $(serviceItem).delay(100).fadeIn("slow");
 }
 
 var homeInit = false;
