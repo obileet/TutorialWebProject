@@ -977,12 +977,14 @@ nav.navigation-menu a {
     z-index: 1002;
 }
 
+/*
 @media only screen and (max-width: 768px) {
     .social-icons-wrapper {
         display: none;
         visibility: hidden;
     }
 }
+*/
 
 .social-icons-wrapper ul {
     margin: 0 auto;
@@ -1004,11 +1006,14 @@ ul.social-icons {
     position: relative;
 }
 
+/*
 @media only screen and (max-width: 640px) {
     ul.social-icons {
         font-size: 14px;
     }
 }
+*/
+
 
 ul.social-icons a,
 ul.social-icons a:hover {

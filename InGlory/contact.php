@@ -20,6 +20,6 @@ if (empty($errors)) {
     $email_body    = "\n Name: $name \n Email: $email \n Subject: $subject \n Message: \n $message";
     $headers       = "From: $email";
     
-    mail($to, $email_subject, $email_body, $headers);
+    @mail($to, $email_subject, $email_body, $headers);
 }
 ?>
