@@ -967,6 +967,7 @@ nav.navigation-menu a {
     text-decoration: none;
 }
 
+
 /* 4.5. social icons */
 .social-icons-wrapper {
     position: absolute;
@@ -4137,6 +4138,11 @@ img.IconImg {
 }
 
 @media (max-width: 450px) {
+
+    .social-icons-wrapper {
+        right: 30px;
+    }
+
     .logoSize {
         width: 100% !important;
         max-width: 300px !important;"
