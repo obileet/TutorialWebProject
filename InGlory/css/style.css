@@ -4139,6 +4139,10 @@ img.IconImg {
 
 @media (max-width: 450px) {
 
+    .kontakthide {
+        display: none;
+    }
+
     .social-icons-wrapper {
         right: 30px;
     }
