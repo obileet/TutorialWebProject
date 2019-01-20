@@ -12874,15 +12874,21 @@ $(function () {
             duration: i,
             offset: -120
         }).addTo(l).on("enter", function (o) {
-            $(".logo").removeClass("logo-light"), $(".navigation-icon .line").addClass("line-dark"),
-                $(".logoImpressum").removeClass("logo-dark").addClass("logo-light"),
-                $(".impressumLine").addClass("line").removeClass("menuline-dark"),
+
+            $(".logoImpressum").removeClass("logo-dark").addClass("logo-light");
+            $(".impressumLine").addClass("line").removeClass("menuline-dark");
+            if(window.innerWidth > 450) {
+                $(".navigation-icon .line").addClass("line-dark");
                 $(".indexLine").addClass("menuline-dark").removeClass("line");
+            }
         }).on("leave", function (o) {
-            $(".logo").addClass("logo-light"), $(".navigation-icon .line").removeClass("line-dark"),
-                $(".logoImpressum").removeClass("logo-light").addClass("logo-dark"),
-                $(".impressumLine").addClass("menuline-dark").removeClass("line"),
+
+            $(".logoImpressum").removeClass("logo-light").addClass("logo-dark");
+            $(".impressumLine").addClass("menuline-dark").removeClass("line");
+            if(window.innerWidth > 450) {
+                $(".navigation-icon .line").removeClass("line-dark");
                 $(".indexLine").addClass("line").removeClass("menuline-dark");
+            }
         });
         $(window).on("resize", function () {
             t.duration(n.outerHeight())
