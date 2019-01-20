@@ -678,6 +678,7 @@ strong {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     background-color: #fff;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.3);
 }
 
 .navigation-icon .menuline-dark {
