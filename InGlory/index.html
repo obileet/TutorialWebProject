@@ -35,9 +35,9 @@
 
 <div id="iconDiv" class="iconDiv">
     <div class="gradientlogo">
-    <a href="#home">
-        <img class="IconImg" src="img/logo/logo-black.png"/>
-    </a>
+        <a href="#home">
+            <img class="IconImg" src="img/logo/logo-black.png"/>
+        </a>
     </div>
 </div>
 
@@ -173,7 +173,7 @@
                                         ausgeklügeltes Design, welches sich nachhaltig in den Köpfen der Menschen
                                         verankert und einen Wiedererkennungswert erzeugt. Dabei unterstützen wir
                                         Unternehmen in jeder Größe und in jedem Umfang. Wir betreuen unsere Kunden
-                                        dabei von der Beratung bis hin zur finalen Umsetzung des Designs.  </p>
+                                        dabei von der Beratung bis hin zur finalen Umsetzung des Designs. </p>
                                     <br>
                                     - Seit 2012 -
                                     <!-- about content 1 start -->
@@ -576,7 +576,8 @@
                                         Responsive Webdesign <span>Projektdauer: 10 Tage | Verwendete Software: Adobe Photoshop, Adobe Illustrator, Wordpress</span>
                                         <br>
                                         Link zur Webseite: <a href="http://max-verputz.de"
-                                                              class="news-page-img-carousel-heading news-page-img-carousel-heading-dark"> Max-Putz.de</a>
+                                                              class="news-page-img-carousel-heading news-page-img-carousel-heading-dark">
+                                        Max-Putz.de</a>
                                     </div>
                                     <div class="news-text-txt">
                                         <p>
@@ -712,18 +713,18 @@
                                     </div>
                                     <div class="news-page-img-carousel-heading news-page-img-carousel-heading-dark">
                                         Corporate Design (Gastronomie) <span>Projektdauer: 3 1/2 Wochen | Verwendete Software: Adobe Photoshop, Adobe Illustrator, Wordpress</span>
-                                    <br>Link zur Webseite: <a href="http://troja-wuppertal.de"
-                                                              class="news-page-img-carousel-heading news-page-img-carousel-heading-dark">Troja-Wuppertal.de</a>
+                                        <br>Link zur Webseite: <a href="http://troja-wuppertal.de"
+                                                                  class="news-page-img-carousel-heading news-page-img-carousel-heading-dark">Troja-Wuppertal.de</a>
                                     </div>
                                     <div class="news-text-txt">
                                         <p>
                                             Ein einheitliches Gesamtbild angefangen bei Logo Realisierung, den
                                             Speisekarten, der Wanddekoration, den Visitenkarten, Social Meda Post
                                             Layouts, bishin zum gesamten Webauftritt. All das wünschte sich das Team
-                                            der  Troja Gastronomie von InGlory. Nach knapp 3 1/2 Monaten und
+                                            der Troja Gastronomie von InGlory. Nach knapp 3 1/2 Monaten und
                                             mehreren vor Ort Besuchen wurde der letzte Meilenstein erfolgreich
-                                            gesetzt.  Jetzt erstrahlt das Troja Cafe & Restaurant in einem
-                                            einheitlichen  Glanz egal ob im Social Media Bereich oder in der
+                                            gesetzt. Jetzt erstrahlt das Troja Cafe & Restaurant in einem
+                                            einheitlichen Glanz egal ob im Social Media Bereich oder in der
                                             Gastronomie selbst.
                                     </div>
                                     <div class="text-spacer">
@@ -766,7 +767,7 @@
                                             Entwickler der MR.TOOTH Android App auf uns zu mit dem Wunsch sein App
                                             kinderfreundlich und dennoch nützlich zu gestalten. Das Endergbnis
                                             kann sich sehen lassen! In enger Zusammenarbeit mit unseren Entwicklern
-                                            haben wir eine Kinderfreundliche App designt die Kinder spielerisch  an das
+                                            haben wir eine Kinderfreundliche App designt die Kinder spielerisch an das
                                             Thema Zähneputzen heranführt.
                                         </p>
                                     </div>
@@ -801,15 +802,13 @@
                             <!-- center block start -->
                             <div class="center-block">
                                 <p class="contact-txt">
-                                    <span class="contact-info-mail"><a class="link-underline link-underline-dark"
-                                                                       href="mailto:info@inglory.de">info@inglory
+                                    <span class="contact-info-mail"><a
+                                            class="link-underline link-underline-dark"
+                                            href="mailto:info@inglory.de">info@inglory
                                         .de</a></span>
-                                   <!-- <span>InGlory<br>
-                                            Mike Glaubitz<br>
-                                            Dieterwiesenstraße 23<br>
-                                            67487 Maikammer</span> -->
                                 </p><!-- contact form launcher start -->
-                                <div class="contact-modal-launcher-wrapper">
+                                <div class="spacer-line-vertical-dark" style="padding-bottom: 10px"></div>
+                                <div class="contact-modal-launcher-wrapper" style="height: 30px !important; padding-top: 5%">
                                     <a class="button-link contact-modal-launcher"><span>zum Kontaktformular</span><i
                                             class="ion-android-arrow-dropright"></i></a>
                                 </div><!-- contact form launcher end -->
@@ -888,9 +887,21 @@
                                             <textarea class="requiredField message" id="message" name="message"
                                                       placeholder="Nachricht"></textarea>
                                         </div>
-                                        <div>
+
+                                        <div class="col-12">
+                                                <div class="col-sm-6 col-md-6 col-lg-6">
+                                                    <img id="captchaImg" alt=""/>
+                                                </div>
+                                                <div class="col-sm-6 col-md-6 col-lg-6">
+                                                    <input class="requiredField subject" type="text" name="captcha"
+                                                           id="captcha" oninput="checkCaptcha()" placeholder="Captcha eingabe">
+                                                </div>
+                                        </div>
+
+                                        <div class="col-12">
                                             <button class="c-btn fullwidth-liquid c-btn-contact-modal-wrapper-only"
-                                                    id="submit" type="submit"><span>Nachricht senden</span></button>
+                                                    id="submit" type="submit" name="check" disabled="disabled" style="opacity: 0.5"><span>Nachricht senden</span>
+                                            </button>
                                         </div>
                                     </form>
                                 </div><!-- contact form end -->

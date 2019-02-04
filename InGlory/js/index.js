@@ -42,4 +42,30 @@ $(function () {
         nav: true,
         navText: ["<i class='owl-custom ion-chevron-left'></i>", "<i class='owl-custom ion-chevron-right'></i>"]
     });
+
+    randomCaptcha();
 });
+
+
+var captchaIndex = 0;
+const captchas = ["captcha1.png", "captcha2.png", "captcha3.png", "captcha4.png"];
+const captchasSolutions = ["1337", "0531", "9531", "2489"];
+
+function randomCaptcha() {
+    captchaIndex = Math.floor(Math.random() * 4);
+    $("#captchaImg").attr("src", "img/captcha/" + captchas[captchaIndex]);
+}
+
+function checkCaptcha() {
+    console.log("check");
+    var captchaInput = $("#captcha").val();
+    if (captchaInput != captchasSolutions[captchaIndex]) {
+        console.log("disabled");
+        $("#submit").prop("disabled",true);
+        $("#submit").css("opacity","0.5");
+    } else {
+        console.log("enabled");
+        $("#submit").prop("disabled",false);
+        $("#submit").css("opacity","1.0");
+    }
+}
