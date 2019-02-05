@@ -109,12 +109,10 @@ $(function () {
         navText: ["<i class='owl-custom ion-chevron-left'></i>", "<i class='owl-custom ion-chevron-right'></i>"],
         responsive: {
             0: {
-                items: 1,
-                nav: false
+                items: 1
             },
             768: {
-                items: 3,
-                nav: false
+                items: 3
             },
             1170: {
                 items: 3
