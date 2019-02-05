@@ -4297,9 +4297,17 @@ img.IconImg {
         width: 100% !important;
         max-width: 533px !important;"
     }
+
+    .vertical-padding {
+        padding-top: 18%;
+    }
 }
 
 @media (max-width: 450px) {
+
+    .vertical-padding {
+        padding-top: 18%;
+    }
 
     .menuline-dark {
         background-color: white !important;
@@ -4358,6 +4366,10 @@ img.IconImg {
     span.service-index {
         left: 0%;
     }
+
+    .vertical-padding {
+        padding-top: 18% !important;
+    }
 }
 
 @media (min-width: 768px) {
@@ -4368,6 +4380,11 @@ img.IconImg {
     span.service-index {
         left: -10%;
     }
+}
+
+
+.vertical-padding {
+    padding-top: 5%;
 }
 
 span.service-index {
