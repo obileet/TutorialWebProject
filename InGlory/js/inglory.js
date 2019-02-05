@@ -82,15 +82,13 @@ $(function () {
     // 3. slick slider
     // 3.1. slick about slider
     $(".slick-about").slick({
-        arrows: true,
+        arrows: false,
         initialSlide: 0,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        prevArrow: "<i class='slick-prev icon ion-chevron-left'></i>",
-        nextArrow: "<i class='slick-next icon ion-chevron-right'></i>",
         fade: false,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         cssEase: "ease",
         speed: 500

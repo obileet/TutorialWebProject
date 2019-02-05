@@ -29,17 +29,6 @@ $(function () {
         afterResponsive: function (isResponsive) {
         }
     });
-
-    $("#leistungen-carousel").owlCarousel({
-        loop: true,
-        center: true,
-        items: 1,
-        margin: 0,
-        autoplay: true,
-        autoplaySpeed: 1000,
-        autoplayTimeout: 5000,
-        smartSpeed: 450,
-    });
 });
 
 
