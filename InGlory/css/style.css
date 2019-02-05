@@ -3153,12 +3153,16 @@ a:hover .c-btn {
 
 /* 15. vertical spacer line */
 .spacer-line-vertical-dark,
+.spacer-line-vertical-dark-k,
 .spacer-line-vertical-light {
     position: relative;
     display: block;
 }
 
+
+
 .spacer-line-vertical-dark::after,
+.spacer-line-vertical-dark-k::after,
 .spacer-line-vertical-light::after {
     content: "";
     position: absolute;
@@ -3172,7 +3176,12 @@ a:hover .c-btn {
 @media all and (min-width: 1920px) {
     .spacer-line-vertical-dark::after,
     .spacer-line-vertical-light::after {
-        height: 25px;
+        height: 50px;
+        margin: 9px auto 0 auto;
+    }
+
+    .spacer-line-vertical-dark-k::after {
+        height: 30px;
         margin: 9px auto 0 auto;
     }
 }
@@ -3180,9 +3189,18 @@ a:hover .c-btn {
 @media only screen and (max-width: 880px) {
     .spacer-line-vertical-dark::after,
     .spacer-line-vertical-light::after {
-        height: 25px;
+        height: 50px;
         margin: 9px auto 0 auto;
     }
+
+    .spacer-line-vertical-dark-k::after {
+        height: 30px;
+        margin: 9px auto 0 auto;
+    }
+}
+
+.spacer-line-vertical-dark-k::after {
+    border-right: 1px solid #5f5f5f;
 }
 
 .spacer-line-vertical-dark::after {
