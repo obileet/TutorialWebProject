@@ -3172,7 +3172,7 @@ a:hover .c-btn {
 @media all and (min-width: 1920px) {
     .spacer-line-vertical-dark::after,
     .spacer-line-vertical-light::after {
-        height: 50px;
+        height: 25px;
         margin: 9px auto 0 auto;
     }
 }
@@ -3180,7 +3180,7 @@ a:hover .c-btn {
 @media only screen and (max-width: 880px) {
     .spacer-line-vertical-dark::after,
     .spacer-line-vertical-light::after {
-        height: 50px;
+        height: 25px;
         margin: 9px auto 0 auto;
     }
 }
