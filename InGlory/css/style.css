@@ -4358,7 +4358,7 @@ img.IconImg {
         text-align: center;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .hide-leistungen {
         display: none !important;
     }
@@ -4372,7 +4372,7 @@ img.IconImg {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
     .hide-leistungSlider {
         display: none !important;
     }

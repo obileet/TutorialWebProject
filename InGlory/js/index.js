@@ -15,6 +15,7 @@ $(function () {
     $("#leistung7Content").load("leistungen/ls7.html");
     $("#leistung8Content").load("leistungen/ls8.html");
     $("#leistung9Content").load("leistungen/ls9.html");
+    $("#leistung10Content").load("leistungen/ls10.html");
 
     $("#footerContent").load("footer.html");
 

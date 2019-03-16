@@ -50,14 +50,12 @@ function showServiceItem(itemID) {
     $(".serviceItem7").hide();
     $(".serviceItem8").hide();
     $(".serviceItem9").hide();
+    $(".serviceItem10").hide();
 
 
     var serviceItem = document.getElementsByClassName(itemID);
     $(serviceItem).delay(100).fadeIn("slow");
 }
-
-var homeInit = false;
-var impressumInit = false;
 
 $(function () {
     "use strict";
