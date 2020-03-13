@@ -553,7 +553,7 @@ strong {
 .navigation-icon .line {
     display: block;
     width: 35px;
-    height: 3px;
+    height: 2px;
     margin: 8px auto;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -566,7 +566,7 @@ strong {
 .navigation-icon .menuline-dark {
     display: block;
     width: 35px;
-    height: 3px;
+    height: 2px;
     margin: 8px auto;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -594,7 +594,7 @@ strong {
 .navigation-icon .menuline-dark {
     display: block;
     width: 35px;
-    height: 3px;
+    height: 2px;
     margin: 8px auto;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -854,9 +854,9 @@ nav.navigation-menu a {
     line-height: 1;
     font-style: normal;
     font-weight: 400;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.20em;
     text-transform: uppercase;
-    margin: 0 0 2px 0;
+    margin: 10px 0 2px 0;
     color: #fff;
 }
 .intro-subname {
@@ -866,7 +866,7 @@ nav.navigation-menu a {
     line-height: 1;
     font-style: normal;
     font-weight: 300;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.30em;
     text-transform: uppercase;
     color: #5f5f5f;
 }
@@ -1925,7 +1925,7 @@ ul.social-icons a:hover {
     }
 }
 .contact-txt, .contact-txt a, .contact-txt a:hover {
-    color: #5f5f5f;
+    color: #111111;
 }
 /* 9.2. contact container */
 .contact-container, .contact-bg-wrapper {
@@ -2037,7 +2037,7 @@ ul.social-icons-contact {
 }
 ul.social-icons-contact a, ul.social-icons-contact a:hover {
     padding: 0;
-    color: #5f5f5f;
+    color: #111111;
     text-decoration: none;
     -webkit-transition: all 0.5s linear;
     -moz-transition: all 0.5s linear;
@@ -2094,7 +2094,7 @@ a.button-link {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.65em;
-    color: #5f5f5f;
+    color: #111111;
     text-align: left;
     text-transform: uppercase;
     cursor: pointer;
@@ -2124,7 +2124,7 @@ a.button-link:before {
     height: 2px;
     top: 20px;
     left: -3px;
-    background-color: #5f5f5f;
+    background-color: #111111;
     -webkit-transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -2144,7 +2144,7 @@ a.button-link i {
     margin: 0;
     padding: 0 0 0 13px;
     font-size: 21px;
-    color: #5f5f5f;
+    color: #111111;
     -webkit-transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: left 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), -webkit-transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -2771,7 +2771,7 @@ textarea:focus:-moz-placeholder {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #fff;
+    background: #000000;
     z-index: 999999;
 }
 #preloader {
@@ -2781,7 +2781,7 @@ textarea:focus:-moz-placeholder {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #fff;
+    background: #000000;
     z-index: 999999;
 }
 #preloader-status {
@@ -2811,7 +2811,7 @@ textarea:focus:-moz-placeholder {
     -ms-animation: rotate 1s infinite linear;
     -o-animation: rotate 1s infinite linear;
     animation: rotate 1s infinite linear;
-    border: 3px solid rgba(17, 17, 17, .15);
+    border: 3px solid #ffffff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -2825,7 +2825,7 @@ textarea:focus:-moz-placeholder {
     top: -3px;
     left: -3px;
     border: 3px solid transparent;
-    border-top: 3px solid rgba(17, 17, 17, .75);
+    border-top: 3px solid #5f5f5f;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
